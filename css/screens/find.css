@@ -1,0 +1,113 @@
+.header__icons__cog .fyi {
+    width: 7px;
+    height:7px;
+    bottom: 20px;
+    left: 1px; 
+}
+.recommended-friends {
+    padding: 20px 0px;
+    margin: 20px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+.recommended-friends__title {
+    font-size: 14px;
+    color: var(--kokoa-gray);
+}
+.recommended-friends span {
+    display: block;
+    margin:65px 0;
+    text-align:center;
+    font-size: 16px;
+    color: var(--kokoa-gray)
+}
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+.open-chat__header span {
+    opacity: 0.6;
+}
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 10px 5px;
+}
+.open-post__title {
+    font-weight: 600;
+    margin-bottom:7px;
+}
+.open-post__hashtags {
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom:5px;
+}
+.open-post__members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.open-post__members{
+    display: flex;
+    align-items: center;
+}
+.open-post__member-count {
+    opacity: 0.5;
+    font-size: 14px;
+}
+.open-post__members .divider{
+    width: 1.5px;
+    height:15px;
+    margin: 0 5px;
+    background-color: var(--kokoa-gray);
+}   
+.open-post__member-status {
+    color:magenta;
+    font-size: 14px;
+    }
+.open-post__column:last-child {
+    position:relative;
+}
+.open-post__photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 5%;
+}
+.open-post__heart-count {
+    height:25px;
+    position:absolute; 
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes hearbeat {
+    0% {
+        transform:none;
+    }
+    50% {
+        transform:scale(1.5);
+    }
+    100% {
+        transform:none;
+    }
+}
+.open-post__heart-count i{
+    margin-right: 5px;
+}
+.open-post__heart-count:hover i{
+    will-change: transform;
+    color:tomato;
+    animation: hearbeat 1s ease-in-out infinite;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with future me - Kokoa Clone - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span> 18:43 </span>
+        </div>
+        <div class="status-bar__column">
+            <span> 11% </span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column"><a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a></div>
+        <div class="alt-header__column">
+            <h1 class="alt-header-title"> 미래의 나 </h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+<main class="main-screen main-chat">
+    <div class="chat__timestamp"> Monday, January 31, 2022 </div>
+
+    <div class="message-row">
+        <img src="future-me.png" alt=""> 
+        <div class="message-row__content">
+            <span class="message__author">Future me</span>
+            <div class="message__info">
+                <span class="message__bubble">Hi!</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-row message-row__outbound">
+        <div class="message-row__content">
+            <div class="message__info">
+                <span class="message__bubble">Hey! What's up?</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-row">
+        <img src="future-me.png" alt=""> 
+        <div class="message-row__content">
+            <span class="message__author">Future me</span>
+            <div class="message__info">
+                <span class="message__bubble">I wanna say this to you</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-row">
+        <img src="future-me.png" alt=""> 
+        <div class="message-row__content">
+            <span class="message__author">Future me</span>
+            <div class="message__info">
+                <span class="message__bubble"> You're gonna be a decent developer!!</span>
+                <span class="message__time">21:27</span>
+            </div>
+        </div>
+    </div>
+</main>  
+
+<form class="reply">
+    <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+    </div>
+    <div class="reply__column">
+        <input type="text" placeholder="Write your message here.">
+        <i class="far fa-smile"></i>
+        <button> <i class="fas fa-arrow-up"></i></button>
+    </div>
+</form>
+
+<div id="mobile-only">
+    <p>
+        <i class="fas fa-desktop fa-2x"></i>
+        <span> 내용을 확인하시려면 스크린 가로 길이를 줄여주세요 :) </span>
+        <span> Please shorten the width of your screen :) </span>
+    </p>
+    <div id="mobile-only-divider"></div>
+    <p>
+        <i class="fas fa-mobile-alt fa-2x"></i>
+        <span> 내용을 확인하시려면 휴대폰을 세로 모드로 돌려주세요 :) </span>
+        <span> Please rotate your phone to portrait mode:) </span> 
+    </p>
+</div>
+
+<script 
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>   

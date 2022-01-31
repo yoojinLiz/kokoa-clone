@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to Kokoa Talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span> 18:43 </span>
+        </div>
+        <div class="status-bar__column">
+            <span> 11% </span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    
+    
+    </div>
+
+    <header class="welcome-header">  <!--header는 자주 쓰는 태그이기 때문에 클래스 명을 잘 분류해두어야 함! -->
+        <h1 class="welcome-header__title"> Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text"> If you have a Kokoa Account, <br> log in with your email or phone number. </p>
+    </header>
+
+    <!-- 이 프로젝트를 업로드할 곳에서는 form method로 post 를 지원하지 않는다는 점 유의-->
+    <form action="friends.html" method="get" id="login-form"> <!--우리가 clone할 내용에는 form이 이거 하나뿐이기 때문에 크게 신경 쓸 필요는 없음 -->
+        <input name="username" type="text" placeholder="Email or phone number"/>
+        <input name="password" type="password" placeholder="Password"/>
+        <input type="submit" value="Log In">  <!-- 제출버튼은 이렇게 submit 타입의 input을 쓰거나, <button> </button> 태그를 쓰면 됨 -->    
+        <a href="#"> Find Kokoa Account or Password </a>
+    </form>
+
+
+    <div id="mobile-only">
+        <p>
+            <i class="fas fa-desktop fa-2x"></i>
+            <span> 내용을 확인하시려면 스크린 가로 길이를 줄여주세요 :) </span>
+            <span> Please shorten the width of your screen :) </span>
+        </p>
+        <div id="mobile-only-divider"></div>
+        <p>
+            <i class="fas fa-mobile-alt fa-2x"></i>
+            <span> 내용을 확인하시려면 휴대폰을 세로 모드로 돌려주세요 :) </span>
+            <span> Please rotate your phone to portrait mode:) </span> 
+        </p>
+    </div>
+    
+
+<script 
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>   

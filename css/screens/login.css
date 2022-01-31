@@ -1,0 +1,52 @@
+
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-header__title {
+    margin-bottom : 20px;
+    font-size: 25px;
+    font-weight:2px;
+}
+.welcome-header__text {
+    width: 60%;
+    opacity: 0.7;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px; 
+}
+#login-form input {
+    padding: 15px 0px;
+    margin-bottom: 25px;
+    border:none;
+    font-size: 18px;
+}
+/* 아래는 니꼬쌤이 BEM을 쓰지 않았을 때를 보여줌.
+BEM을 썼다면 not 요소들이나 [type="submit"] 같은 것을 설정하지 않았어도 됐을 것.
+고로 BEM을 사용하자!! */
+
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
+} /* type이 submit이 아닌 login-form 내input에 만 적용 */
+#login-form input:not([type="submit"]):focus {
+    border-color: var(--kokoa-yellow);
+}
+#login-form input[type="submit"] {
+    background-color: var(--kokoa-yellow);
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+}
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit; /* 부모태그는 login-form이고 이의 디폴트컬러는 블랙! */
+    font-size: 13px;
+}

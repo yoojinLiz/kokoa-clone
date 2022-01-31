@@ -1,0 +1,6 @@
+:root {
+    --kokoa-yellow: #fae100;
+    --kokoa-gray: rgba(0,0,0,0.2);
+    --horizontal-space: 25px;
+    --main-border: 1px solid var(--kokoa-gray);
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles11.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="screen firstscreen">
+        <header class="screen__header">
+            <span class="header__back"><i class="fas fa-arrow-left fa-lg"></i></span>
+            <span class="header__search"><i class="fas fa-search fa-lg"></i></span>
+        </header>
+
+        <main class="main artist-main">
+            <div class="artist__img"> <img src="https://ww.namu.la/s/ae25a4b6fe5ea07b15f6224a873c5a43205ea29b0ab9f432c77fb53a214e3a56d76d0e0b8d154fd8ce869b52ce90a3bbd553dfbe337b44ee4c3a4dafe921dee8c8fd359a5d2fea0e13fa6d75d5e84617"></div>
+            <h1 class="artist__name">Crhistopher</h1>
+            <h2 class="artist__genra">Pop, Dance</h2>
+        </main>
+
+        <div class="artist__btn">
+            <div class="btn artist__btn__shuffle">Shuffle</div>
+            <div class="btn artist__btn__likes"> <i class="fas fa-heart"></i>212,971</div>
+        </div>
+
+        <ul class="songlist">
+            <li class="song">
+                <img class="song__album-img" src="https://i.discogs.com/713MJxbzdKgtkicUxd2sgHE1XLiNI4BdecM2pt_C3l0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWltYWdlcy9SLTU2/MDQzOTAtMTM5Nzc2/NzIxMS0zOTAyLmpw/ZWc.jpeg">
+                <div class="song__info">
+                    <h3 class="song__artist"> Christopher</h3>
+                    <h4 class="song__title"> Told You So </h4>
+                </div>
+                <span class="song__icon"><i class="fas fa-ellipsis-v fa-lg"></i></span>
+            </li>
+
+            <li class="song">
+                <img class="song__album-img" src="data:image/jpeg;base64,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">
+                <div class="song__info">
+                    <h3 class="song__artist"> Christopher</h3>
+                    <h4 class="song__title"> Bad </h4>
+                </div>
+                <span class="song__icon"><i class="fas fa-ellipsis-v fa-lg"></i></span>
+            </li>
+
+            <li class="song">
+                <img class="song__album-img" src="https://i.discogs.com/BsLeYYFVWTAoXSC6R_iWSHq73sshNt_bRUqg-Z2e-74/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWltYWdlcy9SLTM3/Njk4NjQtMTYyMzQy/NzkzMS04MDY5Lmpw/ZWc.jpeg">
+                <div class="song__info">
+                    <h3 class="song__artist"> Christopher</h3>
+                    <h4 class="song__title"> Against The Odds </h4>
+                </div>
+                <span class="song__icon"><i class="fas fa-ellipsis-v fa-lg"></i></span>
+            </li>
+
+            <li class="song">
+                <img class="song__album-img" src="https://i.discogs.com/VRfVJjkSq1sxrFgFnbBYlWDZzDiYeqFQLQX0n_C9ETQ/rs:fill/g:sm/q:40/h:100/w:100/czM6Ly9kaXNjb2dz/LWltYWdlcy9SLTE2/NzYxMTUwLTE2MDk2/NzMxNDItODc0Ny5q/cGVn.jpeg">
+                <div class="song__info">
+                    <h3 class="song__artist"> Christopher x ChungHa</h3>
+                    <h4 class="song__title"> Bad Boy </h4>
+                </div>
+                <span class="song__icon"><i class="fas fa-ellipsis-v fa-lg"></i></span>
+            </li>
+        </ul>
+
+        <div class="btn playbar">
+            <div class="playbar__info">
+                <h3 class="song__artist"> Christopher</h3>
+                <h4 class="song__title"> Bad </h4>
+            </div>
+            <div class="playbar__controller">
+                <i class="fas fa-step-backward"></i>
+                <i class="fas fa-pause fa-lg"></i>
+                <i class="fas fa-step-forward"></i>
+            </div>
+        </div>
+
+</div> <!-- first screen done-->
+    
+
+    <div class="screen secondscreen">
+        <header class="screen__header">
+            <span class="header__back"><i class="fas fa-arrow-left fa-lg"></i></span>
+            <span class="header__ellipsis"><i class="fas fa-ellipsis-v fa-lg"></i></span>
+        </header>
+   
+
+    <main class="main player-main">
+        <div class="player__img"> <img src="data:image/jpeg;base64,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"></div>
+        <h1 class="player__song">Bad</h1>
+        <h2 class="player__artist">Crhistopher</h2>
+    </main>
+
+    <main class="player__controller">
+        <div class=controller__time>
+            <span class="controller__start">0:23</span> 
+            <span class="controller__end">3:21</span> 
+        </div>
+        
+        <div class="controller__bar">
+            <div class="controller__played">
+                <div class="controller__point"></div>
+            </div> 
+            <div class="controller__notplayed">
+            </div>
+        </div>
+
+        <div class="controller__icons">
+            <i class="fas fa-sync-alt"></i>
+            <i class="fas fa-step-backward fa-lg"></i>
+            <i class="fas fa-play"></i>
+            <i class="fas fa-step-forward fa-lg"></i>
+            <i class="fas fa-random"></i>
+        </div>
+    
+
+    </main>
+
+    
+
+</div> <!-- second screen done-->
+
+
+
+
+
+    <script 
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous">
+    </script>   
+</body>
+</html>

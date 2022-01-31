@@ -1,0 +1,26 @@
+.badge {
+    width: 27px;
+    height:27px;
+    border-radius: 50%;
+    background-color: tomato;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.fyi {
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: tomato;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+}
+
+.with-noti {
+    position:relative;
+}
+
+
